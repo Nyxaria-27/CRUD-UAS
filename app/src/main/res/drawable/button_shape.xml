@@ -1,0 +1,18 @@
+<!-- res/drawable/button_shape.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Mengatur warna latar belakang tombol -->
+    <solid android:color="#FBC02D" />
+
+    <!-- Memberikan sudut membulat pada tombol -->
+    <corners android:radius="12dp" />
+
+    <!-- Memberikan margin internal di dalam tombol -->
+    <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp"/>
+
+    <!-- Memberikan border atau garis pinggir pada tombol -->
+    <stroke android:width="2dp" android:color="#FFFFFF" />
+</shape>

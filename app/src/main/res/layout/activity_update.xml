@@ -1,0 +1,160 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#004F8C"
+    tools:context=".Update">
+
+    <!-- TextView untuk label Nomor -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Nomor"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- EditText untuk input Nomor -->
+    <EditText
+        android:id="@+id/editTextup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FFFFFF"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- TextView untuk label Nama -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextup1"
+        android:text="Nama Barang"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- EditText untuk input Nama -->
+    <EditText
+        android:id="@+id/editTextup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FFFFFF"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- TextView untuk label Tanggal Lahir -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextup2"
+        android:text="Harga Barang"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- EditText untuk input Tanggal Lahir -->
+    <EditText
+        android:id="@+id/editTextup3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FFFFFF"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- TextView untuk label Jenis Kelamin -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextup3"
+        android:text="Stok Barang"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- EditText untuk input Jenis Kelamin -->
+    <EditText
+        android:id="@+id/editTextup4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FFFFFF"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- TextView untuk label Alamat -->
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextup4"
+        android:text="Deskripsi Barang"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- EditText untuk input Alamat -->
+    <EditText
+        android:id="@+id/editTextup5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FFFFFF"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextup5"
+        >
+    <!-- Button Update dengan warna oranye -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:text="Update"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#4CAF50"
+        android:padding="12dp"
+        android:layout_marginRight="17sp"
+        android:textSize="16sp"
+        android:elevation="8dp"/>
+
+    <!-- Button Back dengan warna abu-abu terang -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/button1"
+        android:text="Back"
+        android:layout_alignParentBottom="true"
+
+        android:textColor="@android:color/black"
+        android:backgroundTint="#FB8C00"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:elevation="8dp"/>
+    </RelativeLayout>
+</RelativeLayout>
